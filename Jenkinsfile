@@ -2,9 +2,6 @@
 import groovy.json.JsonSlurperClassic
 node {
 
-    def BUILD_NUMBER
-    def RUN_ARTIFACT_DIR
-    def SFDC_USERNAME
 
     def HUB_ORG=='microservice.dev1@salesforce.com.dev1'
     def SFDC_HOST = 'https://test.salesforce.com'
